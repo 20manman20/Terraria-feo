@@ -2,8 +2,9 @@ for (var i = 0; i < length_item; ++i) {
 	var _ind	= 0
 	if i	== item_i _ind	= 1
 	draw_sprite(s_item_mark,_ind,4+16+(i%8)*32,16+(i div 8)*32)
-	if item[i] != -1 {
+	if item[i,0] != -1 {
 		draw_sprite(s_item,i,4+16+(i%8)*32,16+(i div 8)*32)
+		draw_text(4+16+(i%8)*32,16+(i div 8)*32,item[i,1])
 	}
 }
 

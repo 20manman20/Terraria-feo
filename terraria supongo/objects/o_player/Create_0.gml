@@ -1,7 +1,7 @@
 //Inicio macros
 #macro	h			0
 #macro	v			1
-#macro	COL_TIME	2
+#macro	COL_TIME	10
 
 enum st {
 	idle, stump
@@ -40,7 +40,8 @@ hdir	= 1
 
 length_item	= 16
 for (var i = 0; i < 32; ++i) {
-	item[i]	= -1
+	item[i,0]	= -1
+	item[i,1]	= irandom_range(0,4)
 }
 item_i	= 0
 
@@ -51,3 +52,5 @@ stump_id	= noone
 #endregion
 
 bol_attack	= true
+
+spd_jump	= 5.5

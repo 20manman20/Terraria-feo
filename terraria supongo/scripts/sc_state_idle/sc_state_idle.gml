@@ -41,11 +41,17 @@ function state_idle(){
 	*/
 
 	if key_jump {
-		spd[v]	= -spd_max[v]/1.3
+		spd[v]	= -spd_jump
 	} 
 	if key_jump_r && spd[v] < 0 {
 		spd[v]	*= .3
 	}
+	
+	
+	if hinput != 0 && place_meeting(x+hinput*4,y,o_solid) && !place_meeting(x+hinput*4,y-16,o_solid) && !place_meeting(x,y-16,o_solid) && bol_floor {
+		spd[v] = -3.5
+	}
+	
 
 	repeat(abs(spd[h]*COL_TIME)) {
 		if place_meeting(x+sign(spd[h]),y,o_solid) {
@@ -57,7 +63,7 @@ function state_idle(){
 	repeat (abs(spd[v]*COL_TIME)) {
 		if place_meeting(x,y+sign(spd[v]),o_solid) {
 			spd[v]	= 0
-			y	= round(y)
+			//y	= round(y)
 			break
 		} else y += sign(spd[v])/COL_TIME
 	}
