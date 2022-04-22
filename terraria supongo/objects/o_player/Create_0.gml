@@ -49,3 +49,5 @@ state	= st.idle
 #region	Variables del tocón
 stump_id	= noone
 #endregion
+
+bol_attack	= true

@@ -7,6 +7,7 @@
     {"id":{"name":"o_tree_canopy","path":"objects/o_tree_canopy/o_tree_canopy.yy",},"order":3,},
     {"id":{"name":"s_player_hand","path":"sprites/s_player_hand/s_player_hand.yy",},"order":11,},
     {"id":{"name":"o_hitbox","path":"objects/o_hitbox/o_hitbox.yy",},"order":4,},
+    {"id":{"name":"s_player_mask","path":"sprites/s_player_mask/s_player_mask.yy",},"order":13,},
     {"id":{"name":"s_tl_00","path":"sprites/s_tl_00/s_tl_00.yy",},"order":12,},
     {"id":{"name":"tl_00","path":"tilesets/tl_00/tl_00.yy",},"order":0,},
     {"id":{"name":"s_hitbox","path":"sprites/s_hitbox/s_hitbox.yy",},"order":4,},

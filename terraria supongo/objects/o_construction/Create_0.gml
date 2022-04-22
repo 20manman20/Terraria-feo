@@ -1,4 +1,8 @@
 globalvar the_map;
-the_map	= ds_grid_create(MAP_W,MAP_H)
+globalvar	map_w, map_h;
+map_w		= room_width/TILE_L
+map_h		= room_height/TILE_L
+
+the_map	= ds_grid_create(map_w,map_h)
 
 sc_iso_construction("Tiles_1")

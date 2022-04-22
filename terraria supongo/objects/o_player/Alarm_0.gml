@@ -1,0 +1,1 @@
+bol_attack	= true
