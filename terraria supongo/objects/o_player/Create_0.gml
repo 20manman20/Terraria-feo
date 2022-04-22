@@ -13,11 +13,11 @@ spd			= [0,0]
 
 //Velocidad máxima al correr
 //Velocidad máxima al caer
-spd_max		= [4,9]
+spd_max		= [2,7]
 
 //Aceleración
 //Gravedad
-spd_acc		= [1,.5]
+spd_acc		= [.5,.4]
 
 
 key_left	= keyboard_check(ord("A"))

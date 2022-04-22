@@ -20,3 +20,5 @@ if hinput != 0 hdir	= hinput
 image_xscale	= hdir
 
 item_i	= (item_i + mouse_wheel_down()-mouse_wheel_up()+length_item) % length_item
+
+
