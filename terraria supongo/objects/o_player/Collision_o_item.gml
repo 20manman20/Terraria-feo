@@ -5,10 +5,15 @@ if _num > 0	{
 		for (var j = 0; j < length_item; ++j) {
 			if item[j,0] == -1 {
 				item[j,0]	= _list[| i].image_index
+				item[j,1]++
+				instance_destroy(_list[| i])
+				break
+			}	else {
+				item[j,1]++
 				instance_destroy(_list[| i])
 				break
 			}
-		}
+		} 
 	}
 }
 

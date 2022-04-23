@@ -11,13 +11,11 @@ function state_idle(){
 		spd[v]	= approach(spd[v],spd_max[v],spd_acc[v])
 	}
 
-	/*
-
 	if !bol_floor {
 		if coyote > 0 {
 			coyote--
 			if !jumped && key_jump {
-				spd[v]	= -spd_max[v]/1.3
+				spd[v]	= -spd_jump
 				jumped	= true
 			}
 		}
@@ -33,16 +31,12 @@ function state_idle(){
 	if buffer > 0 {
 		buffer--
 		if bol_floor {
-			spd[v]	= -spd_max[v]/1.3
+			spd[v]	= -spd_jump
 			buffer = 0
 			jumped	= true
 		}
 	}
-	*/
 
-	if key_jump {
-		spd[v]	= -spd_jump
-	} 
 	if key_jump_r && spd[v] < 0 {
 		spd[v]	*= .3
 	}

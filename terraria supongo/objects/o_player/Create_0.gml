@@ -41,7 +41,7 @@ hdir	= 1
 length_item	= 16
 for (var i = 0; i < 32; ++i) {
 	item[i,0]	= -1
-	item[i,1]	= irandom_range(0,4)
+	item[i,1]	= 0
 }
 item_i	= 0
 
