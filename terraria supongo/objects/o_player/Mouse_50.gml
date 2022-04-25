@@ -4,3 +4,6 @@ if bol_attack {
 	bol_attack	= false
 	alarm[0]	= 10
 }
+
+
+
