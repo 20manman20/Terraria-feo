@@ -3,12 +3,14 @@ display_set_gui_maximize(2,2)
 for (var i = 0; i < inv_length; ++i) {
 	var _ind	= 0
 	if i	== inv_item_i _ind	= 1
-	draw_sprite(s_inv_item_mark,_ind,4+16+(i%8)*32,16+(i div 8)*32)
+	draw_sprite(s_inv_item_mark,_ind,4+16+(i%8)*24,16+(i div 8)*24)
 	if inv_item[i,0] != -1 {
-		draw_sprite(s_inv_item,i,4+16+(i%8)*32,16+(i div 8)*32)
-		draw_text(4+16+(i%8)*32,16+(i div 8)*32,inv_item[i,1])
+		draw_sprite(s_inv_item,inv_item[i,0],4+16+(i%8)*24,16+(i div 8)*24)
+		draw_text(4+16+(i%8)*24,16+(i div 8)*24,inv_item[i,1])
 	}
 }
+
+if inv_item[inv_item_i,0] != -1	draw_text(4,64,item[inv_item[inv_item_i,0],0])
 
 switch (state) {
     case st.stump:

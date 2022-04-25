@@ -1,12 +1,12 @@
 
 var _list	= ds_list_create()
-var _place	= instance_place_list(x,y,o_solid,_list,false) 
+var _place	= instance_place_list(x,y,o_def_block,_list,false) 
 
 if _place > 0	{
 	for (var e = 0; e < _place; ++e;)	{
 		if ds_list_find_index(damage_list,_list[| e]) == -1 {
 			with _list[| e] {
-				if !collision_line(o_player.x,o_player.y-16,_list[| e].x,_list[| e].y, o_solid,false,true) {
+				if !collision_line(o_player.x,o_player.y-16,_list[| e].x,_list[| e].y, o_def_block,false,true) {
 					hp_--
 					if hp_ <= 0 instance_destroy()
 					else {

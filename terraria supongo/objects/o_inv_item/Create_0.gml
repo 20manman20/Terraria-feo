@@ -7,7 +7,7 @@ spd_max		= [4,7]
 
 //Aceleración
 //Gravedad
-spd_acc		= [1,.4]
+spd_acc		= [1,.2]
 
 v_float		= 0
 v_float_a	= 0

@@ -27,7 +27,7 @@ function sc_iso_construction(argument0) {
 			tile_data	= the_map[# tx, ty]
 		
 			if tile_data < 9 && tile_data > 0 {
-				var tile_o	= instance_create_depth(tx*TILE_L,ty*TILE_L,100,o_solid)
+				var tile_o	= instance_create_depth(tx*TILE_L,ty*TILE_L,100,block[tile_data-1])
 			}
 		}
 	}
