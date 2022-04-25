@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "s_solid",
-    "path": "sprites/s_solid/s_solid.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -26,11 +23,13 @@
   "properties": [
     {"varType":0,"value":"2","rangeEnabled":true,"rangeMin":0.0,"rangeMax":100.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"hp_","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"-1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"item_drop","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"[[1,1]]","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"item_range","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"[1]","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"item_prob","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Default Objects",
+    "path": "folders/Objects/Default Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_def_block",

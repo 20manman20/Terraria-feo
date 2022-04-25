@@ -9,7 +9,5 @@ spd_max		= [4,7]
 //Gravedad
 spd_acc		= [1,.2]
 
-v_float		= 0
-v_float_a	= 0
-
+amount		= 1
 

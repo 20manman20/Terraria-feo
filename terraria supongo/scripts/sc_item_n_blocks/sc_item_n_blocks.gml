@@ -10,6 +10,7 @@ enum it {
 	grass,
 	dirt,
 	crust,
+	stone,
 	length
 }
 
@@ -31,6 +32,7 @@ item[it.crust]	= ["Corteza", it_type.block]
 
 block	= [	o_grass,
 			o_dirt,
-			o_crust]
+			o_crust,
+			o_stone]
 
 }

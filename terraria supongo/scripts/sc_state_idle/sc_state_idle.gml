@@ -5,7 +5,7 @@ function state_idle(){
 
 	spd[h]	= approach(spd[h], hinput*spd_max[h], spd_acc[h])
 
-	bol_floor	= place_meeting(x,y+1,o_def_block)
+	bol_floor	= place_meeting(x,y+1,o_def_solid)
 
 	if !bol_floor {
 		spd[v]	= approach(spd[v],spd_max[v],spd_acc[v])
@@ -42,20 +42,20 @@ function state_idle(){
 	}
 	
 	
-	if hinput != 0 && place_meeting(x+hinput*4,y,o_def_block) && !place_meeting(x+hinput*4,y-16,o_def_block) && !place_meeting(x,y-16,o_def_block) && bol_floor {
+	if hinput != 0 && place_meeting(x+hinput*4,y,o_def_solid) && !place_meeting(x+hinput*4,y-16,o_def_solid) && !place_meeting(x,y-16,o_def_solid) && bol_floor {
 		spd[v] = -3.5
 	}
 	
 
 	repeat(abs(spd[h]*COL_TIME)) {
-		if place_meeting(x+sign(spd[h]),y,o_def_block) {
+		if place_meeting(x+sign(spd[h]),y,o_def_solid) {
 			spd[h]	= 0
 			break
 		} else x += sign(spd[h])/COL_TIME
 	}
 
 	repeat (abs(spd[v]*COL_TIME)) {
-		if place_meeting(x,y+sign(spd[v]),o_def_block) {
+		if place_meeting(x,y+sign(spd[v]),o_def_solid) {
 			spd[v]	= 0
 			//y	= round(y)
 			break

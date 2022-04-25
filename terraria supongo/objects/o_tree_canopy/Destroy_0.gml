@@ -9,3 +9,5 @@ if _num > 0	{
 }
 
 ds_list_destroy(_list)
+
+event_inherited()
