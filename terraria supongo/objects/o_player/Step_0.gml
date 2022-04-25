@@ -19,6 +19,6 @@ switch (state) {
 if hinput != 0 hdir	= hinput
 image_xscale	= hdir
 
-item_i	= (item_i + mouse_wheel_down()-mouse_wheel_up()+length_item) % length_item
+inv_item_i	= (inv_item_i + mouse_wheel_down()-mouse_wheel_up()+inv_length) % inv_length
 
 

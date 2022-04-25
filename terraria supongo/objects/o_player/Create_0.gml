@@ -38,19 +38,25 @@ jumped			= false
 
 hdir	= 1
 
-length_item	= 16
-for (var i = 0; i < 32; ++i) {
-	item[i,0]	= -1
-	item[i,1]	= 0
-}
-item_i	= 0
+#region Inventario
 
+inv_length	= 16
+
+for (var i = 0; i < 32; ++i) {
+	inv_item[i,0]	= -1
+	inv_item[i,1]	= 0
+}
+
+inv_item_i	= 0
 state	= st.idle
+
+#endregion
 
 #region	Variables del tocón
 stump_id	= noone
 #endregion
 
 bol_attack	= true
-
 spd_jump	= 5.5
+
+

@@ -21,5 +21,5 @@ if _num_canopy > 0	{
 ds_list_destroy(_list_log)
 ds_list_destroy(_list_canopy)
 
-var _item		= instance_create_depth(x,y,depth,o_item)
-_item.spd[v]	= -3
+var _inv_item		= instance_create_depth(x,y,depth,o_inv_item)
+_inv_item.spd[v]	= -3

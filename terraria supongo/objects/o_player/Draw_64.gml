@@ -1,10 +1,12 @@
-for (var i = 0; i < length_item; ++i) {
+display_set_gui_maximize(2,2)
+
+for (var i = 0; i < inv_length; ++i) {
 	var _ind	= 0
-	if i	== item_i _ind	= 1
-	draw_sprite(s_item_mark,_ind,4+16+(i%8)*32,16+(i div 8)*32)
-	if item[i,0] != -1 {
-		draw_sprite(s_item,i,4+16+(i%8)*32,16+(i div 8)*32)
-		draw_text(4+16+(i%8)*32,16+(i div 8)*32,item[i,1])
+	if i	== inv_item_i _ind	= 1
+	draw_sprite(s_inv_item_mark,_ind,4+16+(i%8)*32,16+(i div 8)*32)
+	if inv_item[i,0] != -1 {
+		draw_sprite(s_inv_item,i,4+16+(i%8)*32,16+(i div 8)*32)
+		draw_text(4+16+(i%8)*32,16+(i div 8)*32,inv_item[i,1])
 	}
 }
 
@@ -22,7 +24,7 @@ switch (state) {
 			var _y	= lengthdir_y(128,22.5+45*i)
 			draw_circle(1000+_x,360+_y,32,false)
 			draw_set_color(c_red)
-			if stump_id.place[i] != -1 draw_sprite(s_item,stump_id.place[i],1000+_x,360+_y)
+			if stump_id.place[i] != -1 draw_sprite(s_inv_item,stump_id.place[i],1000+_x,360+_y)
 			draw_set_color(c_white)
 		}
 		draw_set_alpha(1)
@@ -31,7 +33,7 @@ switch (state) {
 			var _y	= lengthdir_y(54,45+90*i)
 			draw_circle(1000+_x,360+_y,32,false)
 			draw_set_color(c_red)
-			if stump_id.place[i+8] != -1 draw_sprite(s_item,stump_id.place[i+8],1000+_x,360+_y)
+			if stump_id.place[i+8] != -1 draw_sprite(s_inv_item,stump_id.place[i+8],1000+_x,360+_y)
 			draw_set_color(c_white)
 		}
         break
