@@ -28,7 +28,7 @@
   "overriddenProperties": [
     {"propertyId":{"name":"hp_","path":"objects/o_def_block/o_def_block.yy",},"objectId":{"name":"o_def_block","path":"objects/o_def_block/o_def_block.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"item_drop","path":"objects/o_def_block/o_def_block.yy",},"objectId":{"name":"o_def_block","path":"objects/o_def_block/o_def_block.yy",},"value":"[it.stone,it.rock0]","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"item_range","path":"objects/o_def_block/o_def_block.yy",},"objectId":{"name":"o_def_block","path":"objects/o_def_block/o_def_block.yy",},"value":"[[1,1],[0,3]]","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"item_range","path":"objects/o_def_block/o_def_block.yy",},"objectId":{"name":"o_def_block","path":"objects/o_def_block/o_def_block.yy",},"value":"[[1,1],[0,5]]","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"item_prob","path":"objects/o_def_block/o_def_block.yy",},"objectId":{"name":"o_def_block","path":"objects/o_def_block/o_def_block.yy",},"value":"[1,2]","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {

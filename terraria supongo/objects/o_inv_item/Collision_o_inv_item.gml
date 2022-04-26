@@ -1,4 +1,4 @@
-if other.image_index == image_index {
-	other.amount++
-	instance_destroy()
-}
+
+	min(id,other.id).amount++
+	instance_destroy(max(id,other.id))
+
