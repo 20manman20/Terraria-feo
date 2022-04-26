@@ -31,8 +31,8 @@
     {"propertyId":{"name":"hp_","path":"objects/o_def_block/o_def_block.yy",},"objectId":{"name":"o_def_block","path":"objects/o_def_block/o_def_block.yy",},"value":"12","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Solids",
+    "path": "folders/Objects/Blocks/Solids.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_tree_stump",

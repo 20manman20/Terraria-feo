@@ -16,15 +16,15 @@ switch (state) {
     case st.stump:
 		draw_set_color(c_white)
 		draw_set_alpha(.2)
-		draw_circle(1000,360,220,false)
+		draw_circle(500,180,110,false)
 		draw_set_alpha(1/3)
-		draw_circle(1000,360,200,false)
+		draw_circle(500,180,100,false)
 		draw_set_alpha(.8)
 		
 		for (var i = 0; i < 8; ++i) {
-			var _x	= lengthdir_x(128,22.5+45*i)
-			var _y	= lengthdir_y(128,22.5+45*i)
-			draw_circle(1000+_x,360+_y,32,false)
+			var _x	= lengthdir_x(64,22.5+45*i)
+			var _y	= lengthdir_y(64,22.5+45*i)
+			draw_circle(500+_x,180+_y,16,false)
 			draw_set_color(c_red)
 			if stump_id.place[i] != -1 draw_sprite(s_inv_item,stump_id.place[i],1000+_x,360+_y)
 			draw_set_color(c_white)

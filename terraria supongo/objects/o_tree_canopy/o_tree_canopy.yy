@@ -32,8 +32,8 @@
     {"propertyId":{"name":"item_drop","path":"objects/o_def_block/o_def_block.yy",},"objectId":{"name":"o_def_block","path":"objects/o_def_block/o_def_block.yy",},"value":"[it.leaves]","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Blocks",
+    "path": "folders/Objects/Blocks.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_tree_canopy",
