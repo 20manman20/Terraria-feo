@@ -1,5 +1,7 @@
 {
   "resources": [
+    {"id":{"name":"o_detect_cut_table","path":"objects/o_detect_cut_table/o_detect_cut_table.yy",},"order":4,},
+    {"id":{"name":"s_cut_mask","path":"sprites/s_cut_mask/s_cut_mask.yy",},"order":2,},
     {"id":{"name":"s_player_s","path":"sprites/s_player_s/s_player_s.yy",},"order":10,},
     {"id":{"name":"o_dirt","path":"objects/o_dirt/o_dirt.yy",},"order":0,},
     {"id":{"name":"o_inv_item","path":"objects/o_inv_item/o_inv_item.yy",},"order":4,},
@@ -16,6 +18,8 @@
     {"id":{"name":"o_stone","path":"objects/o_stone/o_stone.yy",},"order":3,},
     {"id":{"name":"tl_00","path":"tilesets/tl_00/tl_00.yy",},"order":0,},
     {"id":{"name":"s_grass","path":"sprites/s_grass/s_grass.yy",},"order":15,},
+    {"id":{"name":"Room12","path":"rooms/Room12/Room12.yy",},"order":1,},
+    {"id":{"name":"o_cutting_table","path":"objects/o_cutting_table/o_cutting_table.yy",},"order":0,},
     {"id":{"name":"s_hitbox","path":"sprites/s_hitbox/s_hitbox.yy",},"order":4,},
     {"id":{"name":"sc_inventory","path":"scripts/sc_inventory/sc_inventory.yy",},"order":2,},
     {"id":{"name":"s_stone","path":"sprites/s_stone/s_stone.yy",},"order":1,},
@@ -35,12 +39,14 @@
     {"id":{"name":"o_crust","path":"objects/o_crust/o_crust.yy",},"order":2,},
     {"id":{"name":"s_tree_canopy","path":"sprites/s_tree_canopy/s_tree_canopy.yy",},"order":3,},
     {"id":{"name":"o_grass","path":"objects/o_grass/o_grass.yy",},"order":1,},
+    {"id":{"name":"Script5","path":"scripts/Script5/Script5.yy",},"order":1,},
     {"id":{"name":"sc_item_n_blocks","path":"scripts/sc_item_n_blocks/sc_item_n_blocks.yy",},"order":3,},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},"order":0,},
     {"id":{"name":"o_damage_effect","path":"objects/o_damage_effect/o_damage_effect.yy",},"order":6,},
     {"id":{"name":"o_tree_log","path":"objects/o_tree_log/o_tree_log.yy",},"order":4,},
     {"id":{"name":"s_tree_log","path":"sprites/s_tree_log/s_tree_log.yy",},"order":2,},
     {"id":{"name":"o_def_block","path":"objects/o_def_block/o_def_block.yy",},"order":0,},
+    {"id":{"name":"o_cuts","path":"objects/o_cuts/o_cuts.yy",},"order":3,},
     {"id":{"name":"sc_state_idle","path":"scripts/sc_state_idle/sc_state_idle.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
@@ -59,6 +65,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room12","path":"rooms/Room12/Room12.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -78,6 +85,7 @@
     {"folderPath":"folders/Objects/Default Objects.yy","order":13,"resourceVersion":"1.0","name":"Default Objects","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Blocks.yy","order":15,"resourceVersion":"1.0","name":"Blocks","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Blocks/Solids.yy","order":0,"resourceVersion":"1.0","name":"Solids","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sistema de Mesa de Cortes.yy","order":15,"resourceVersion":"1.0","name":"Sistema de Mesa de Cortes","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
