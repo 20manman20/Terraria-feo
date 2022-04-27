@@ -10,6 +10,7 @@
     {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},"order":9,},
     {"id":{"name":"o_construction","path":"objects/o_construction/o_construction.yy",},"order":7,},
     {"id":{"name":"o_tree_canopy","path":"objects/o_tree_canopy/o_tree_canopy.yy",},"order":1,},
+    {"id":{"name":"s_cut_mask_2","path":"sprites/s_cut_mask_2/s_cut_mask_2.yy",},"order":5,},
     {"id":{"name":"s_player_hand","path":"sprites/s_player_hand/s_player_hand.yy",},"order":11,},
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},"order":0,},
     {"id":{"name":"o_hitbox","path":"objects/o_hitbox/o_hitbox.yy",},"order":3,},
