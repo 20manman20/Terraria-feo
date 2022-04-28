@@ -32,8 +32,11 @@ if !bol_cut_pattern {
 			var _dis			= round(3-point_distance(_point[h],_point[v],cut_table_x,cut_table_y)/35)
 			cut_pattern[_dis]++
 			if _h == image_xscale - 1 && _v == image_yscale - 1 {
+				var _piece	= instance_create_depth(x,y,depth-1,o_piece)
+				_piece.image_index	= rock_pattern[cut_pattern[0]][cut_pattern[1]][cut_pattern[2]]
+				show_debug_message(3)
 				bol_cut_pattern	= true
-				break
+				instance_destroy()
 			}
 		}
 	}
