@@ -4,6 +4,7 @@
     {"id":{"name":"s_cut_mask","path":"sprites/s_cut_mask/s_cut_mask.yy",},"order":2,},
     {"id":{"name":"s_player_s","path":"sprites/s_player_s/s_player_s.yy",},"order":10,},
     {"id":{"name":"o_dirt","path":"objects/o_dirt/o_dirt.yy",},"order":0,},
+    {"id":{"name":"Note2","path":"notes/Note2/Note2.yy",},"order":1,},
     {"id":{"name":"o_inv_item","path":"objects/o_inv_item/o_inv_item.yy",},"order":4,},
     {"id":{"name":"o_mouse_mask","path":"sprites/o_mouse_mask/o_mouse_mask.yy",},"order":18,},
     {"id":{"name":"s_inv_item19","path":"sprites/s_inv_item19/s_inv_item19.yy",},"order":19,},
