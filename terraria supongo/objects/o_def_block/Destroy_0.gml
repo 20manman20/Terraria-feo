@@ -5,7 +5,7 @@ var _place	= collision_rectangle_list(x-8,y-8,x+16+8,y+16+8,o_def_solid,false,tr
 if _place > 0	{
 	for (var e = 0; e < _place; ++e;)	{
 		with _list[| e] {
-			alarm[0]	= irandom_range(50,120)
+			alarm[0]	= irandom_range(1,2)
 		}
 	}
 }

@@ -114,4 +114,4 @@ switch col {
 
 image_index	= col
 
-depth	= y/4
+depth	= y/2
