@@ -1,3 +1,18 @@
+
+var _list	= ds_list_create()
+var _place	= collision_rectangle_list(x-8,y-8,x+16+8,y+16+8,o_def_solid,false,true,_list,false) 
+
+if _place > 0	{
+	for (var e = 0; e < _place; ++e;)	{
+		with _list[| e] {
+			alarm[0]	= irandom_range(50,120)
+		}
+	}
+}
+
+ds_list_destroy(_list)
+
+/*
 if item_drop != -1 {
 	for (var i = 0; i < array_length(item_drop); ++i) {
 		if item_range[i,0] - item_range[i,1]	!= 0 {
@@ -28,6 +43,8 @@ if item_drop != -1 {
 		}
 	}
 }
+
+
 
 
 

@@ -20,3 +20,4 @@ image_xscale	= hdir
 
 inv_item_i	= (inv_item_i + mouse_wheel_down()-mouse_wheel_up()+inv_length) % inv_length
 
+depth	= y/4-4
