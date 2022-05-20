@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_dirt",
-    "path": "sprites/s_dirt/s_dirt.yy",
+    "name": "s_dirt_tile",
+    "path": "sprites/s_dirt_tile/s_dirt_tile.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,8 +25,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [

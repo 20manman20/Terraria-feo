@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_crust",
-    "path": "sprites/s_crust/s_crust.yy",
+    "name": "s_crust_tile",
+    "path": "sprites/s_crust_tile/s_crust_tile.yy",
   },
   "solid": false,
   "visible": true,

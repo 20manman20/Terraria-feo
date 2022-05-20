@@ -4,7 +4,7 @@
     "path": "sprites/s_inv_item19/s_inv_item19.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

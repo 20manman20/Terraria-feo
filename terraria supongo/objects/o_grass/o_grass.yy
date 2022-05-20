@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_grass",
-    "path": "sprites/s_grass/s_grass.yy",
+    "name": "s_crust_tile31",
+    "path": "sprites/s_crust_tile31/s_crust_tile31.yy",
   },
   "solid": false,
   "visible": true,

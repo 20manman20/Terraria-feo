@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_stone",
-    "path": "sprites/s_stone/s_stone.yy",
+    "name": "s_stone_tile",
+    "path": "sprites/s_stone_tile/s_stone_tile.yy",
   },
   "solid": false,
   "visible": true,
